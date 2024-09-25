@@ -1,0 +1,67 @@
+From 28f4c3f8025057a06c24beb1f7ea4226743664f0 Mon Sep 17 00:00:00 2001
+From: Surya Murugesan <suryadeveloper079@gmail.com>
+Date: Wed, 25 Sep 2024 15:20:29 +0530
+Subject: [PATCH] Deleted Patch
+
+---
+ univer.patch     | 27 ---------------------------
+ univer.patch.rej | 13 -------------
+ 2 files changed, 40 deletions(-)
+ delete mode 100644 univer.patch
+ delete mode 100644 univer.patch.rej
+
+diff --git a/univer.patch b/univer.patch
+deleted file mode 100644
+index bdb9c7b..0000000
+--- a/univer.patch
++++ /dev/null
+@@ -1,27 +0,0 @@
+-diff --git a/helloworld.c b/helloworld.c
+-index 4128129..5082141 100644
+---- a/helloworld.c
+-+++ b/helloworld.c
+-@@ -1,5 +1,5 @@
+- #include<stdio.h>
+- 
+- int main(){
+--	printf("Hello,Univers");
+-+	printf("Hello,World");
+- }
+-diff --git a/univer.patch b/univer.patch
+-index 4408177..e69de29 100644
+---- a/univer.patch
+-+++ b/univer.patch
+-@@ -1,11 +0,0 @@
+--diff --git a/helloworld.c b/helloworld.c
+--index 569ba31..4128129 100644
+----- a/helloworld.c
+--+++ b/helloworld.c
+--@@ -1,5 +1,5 @@
+-- #include<stdio.h>
+-- 
+-- int main(){
+---	printf("Hello,WOrld");
+--+	printf("Hello,Univers");
+-- }
+diff --git a/univer.patch.rej b/univer.patch.rej
+deleted file mode 100644
+index f9f964e..0000000
+--- a/univer.patch.rej
++++ /dev/null
+@@ -1,13 +0,0 @@
+-diff a/univer.patch b/univer.patch	(rejected hunks)
+-@@ -1,11 +0,0 @@
+--diff --git a/helloworld.c b/helloworld.c
+--index 569ba31..4128129 100644
+----- a/helloworld.c
+--+++ b/helloworld.c
+--@@ -1,5 +1,5 @@
+-- #include<stdio.h>
+-- 
+-- int main(){
+---	printf("Hello,WOrld");
+--+	printf("Hello,Univers");
+-- }
+-- 
+2.25.1
+
